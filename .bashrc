@@ -17,6 +17,7 @@ export LD_LIBRARY_PATH=/home/ld7/bin/openmpi-1.8.1/installation/lib:$LD_LIBRARY_
 export PATH=/home/ld7/bin/totalview/totalview/bin:$PATH
 # git setup
 export PATH=/home/ld7/bin/git/bin:$PATH
+export PATH=/home/ld7/bin/texlive2014/usr/local/texlive/2014/bin/x86_64-linux:$PATH
 # I followed this link for shared host install of git: http://joemaller.com/908/how-to-install-git-on-a-shared-host/
 # after the change in .bashrc, don't forget to source it by typing:
 # source ~/.bashrc
@@ -25,6 +26,7 @@ export PATH=/home/ld7/bin/git/bin:$PATH
 source ~/.git-completion.sh
 #alias gitk="/usr/bin/wish $(which gitk)"
 alias e="emacs -nw"
+alias ev="evince"
 alias ll="ls -ltr"
 # PETSC and SLEPC setup
 export PETSC_DIR=/home/ld7/bin/petsc-3.5.1
